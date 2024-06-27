@@ -142,9 +142,25 @@ figcaption {
     bottom: 20px;
 }
 
+.moab-desert .cap-bottom {
+	right: 100px;
+}
+
 .cap-top {
 	align-items: center;   
 	top: 20px;
+}
+
+.uk .cap-top {
+	left: 100px;
+}
+
+.usa .cap-top {
+	left: 150px;
+}
+
+.mountain .cap-top {
+	right: 90px;
 }
 
 .chile, .guatemala, .hawaii, .moab-desert, .wyoming {
