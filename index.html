@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PhotoGallery</title>
+	<title>TK Photography</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -30,7 +31,6 @@
         </section>
 
         <h2>Gallery</h2>
-
         <section class="info">
             <div class="gallery">
                 <p>Here are some highlights of my work. The locations and year are in the caption</p>
@@ -41,7 +41,7 @@
                 </figure>
 
                 <figure class="guatemala">
-                    <img src="images/Guatemala.png" alt="Guatemela Lake, 1997">
+                    <img src="images/Guatemala.png" alt="Guatemala Lake, 1997">
                     <figcaption class="cap-top">Guatemala, 1997</figcaption>
                 </figure>
 
@@ -98,6 +98,36 @@
             </div>
         </section>
 	</main>
+
+	<footer>
+		<section>
+			<h2>Contact</h2>
+			<p>Please fill out this form and I'll connect with you soon.</p>
+			<div class="contact">
+				<form action="#" method="post" class="contact_form">
+					<div class="name">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="fulname" required placeholder="Your fullname">
+					</div>
+
+					<div class="email">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required placeholder="Enter your email address">
+					</div>
+
+					<div class="message">
+						<label for="message">Message</label>
+						<textarea id="message" placeholder="What can I help you with?"></textarea>
+					</div>
+
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+		<div class="copyright">
+			<p>Copyright 2021 TK Photography</p>
+		</div>
+	</footer>
 	
 </body>
 </html>
